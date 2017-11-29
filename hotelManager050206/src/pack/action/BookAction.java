@@ -1,14 +1,11 @@
 package pack.action;
 
-import java.util.Date;
 import java.util.List;
 import java.text.*;
 
-import pack.dao.*;
 import pack.beans.*;
 import pack.service.*;
 
-import java.util.*;
 import java.io.*;
 
 import com.opensymphony.xwork2.ActionSupport;
@@ -17,6 +14,7 @@ import com.opensymphony.xwork2.ActionContext;
 //用户登录的控制器Action
 public class BookAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private String start;			//用户预约开始时间
 	private String leave;			//用户预约离开时间
 	private Customer customer;		//客户类

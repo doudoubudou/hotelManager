@@ -6,11 +6,11 @@ import pack.beans.Customer;
 import pack.service.GetService;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.opensymphony.xwork2.ActionContext;
 
 //自动填写表单Action
 public class AutoCompleteAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private String ic;		//身份证号
 	private GetService getService;	//获取数据的Service
 	private InputStream inputStream;//封装输出结果的二进制流
