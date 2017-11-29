@@ -11,6 +11,7 @@ import com.opensymphony.xwork2.ActionContext;
 //记录查询Action
 public class RecordsQueryAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private int state;					//设置查询内容
 	private int condition=0;			//设置查询标准
 	private String value;				//设置具体查询条件

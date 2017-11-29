@@ -1,20 +1,16 @@
 package pack.action;
 
 import java.util.List;
-import java.text.*;
 
 import pack.beans.*;
-import pack.dao.TypeDao;
 import pack.service.*;
-
-import java.util.*;
-
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ActionContext;
 
 //用户登录的控制器Action
 public class LoginAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private String userName;		//管理员用户名
 	private String password;		//管理员密码
 	private GetService getService;		//获取Service

@@ -10,6 +10,7 @@ import com.opensymphony.xwork2.ActionContext;
 //客户操作Action
 public class CustomerAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private GetService getService;		//获取数据Service
 	
 	//GetService的getter和setter方法

@@ -1,22 +1,16 @@
 package pack.action;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.text.*;
 
-import pack.dao.*;
 import pack.beans.*;
 import pack.service.*;
-
-import java.util.*;
-import java.io.*;
-
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ActionContext;
 
 public class IoQueryAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private int condition;		//查询条件
 	private String value;			//查询内容
 	private GetService getService;	//获取数据Service

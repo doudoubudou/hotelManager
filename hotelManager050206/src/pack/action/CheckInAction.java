@@ -7,15 +7,13 @@ import java.text.*;
 import pack.beans.*;
 import pack.service.*;
 
-import java.util.*;
-import java.io.*;
-
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ActionContext;
 
 //用户登录的控制器Action
 public class CheckInAction 
 	extends ActionSupport{	
+	private static final long serialVersionUID = 1L;
 	private int last=0;					//入住持续时间
 	private String intime;				//入住时间
 	private int roomId;					//房间id

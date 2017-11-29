@@ -1,22 +1,15 @@
 package pack.action;
 
-import java.util.Date;
 import java.util.List;
-import java.text.*;
-
-import pack.dao.*;
 import pack.beans.*;
 import pack.service.*;
-
-import java.util.*;
-import java.io.*;
-
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ActionContext;
 
 //报表的控制器Action
 public class CheckOutAction 
 	extends ActionSupport{
+	private static final long serialVersionUID = 1L;
 	private GetService getService;		//获取Service
 	
 	//getService的getter和setter方法
